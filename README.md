@@ -14,7 +14,7 @@ The microbiome and metabolome data can be downloaded from the repoisotry
   - **[Metabolome data ()]()**
 
 <a name="data_analysis"></a>
-### 3) Data analysis modules
+### 2) Data analysis modules
 
 ...
 
