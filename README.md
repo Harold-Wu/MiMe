@@ -18,7 +18,7 @@ The microbiome and metabolome data can be downloaded from the repoisotry
 
 ...
 
-The workflow used for analysis can be downloaded from the following [link](https://github.com/QuantGen/MAIZE-HUB/blob/main/analysis.zip).
+The workflow used for analysis can be downloaded from the following [link](https://github.com/Harold-Wu/MiMe/blob/main/Analysis.zip).
 
 
 ```
