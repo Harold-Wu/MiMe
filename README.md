@@ -49,7 +49,7 @@ pipeline_analysis
 │   ├── code
 │   │   ├── 1_enrich_meta.R
 │   │   ├── 1_enrich_micro.R
-│   │   └── 2_make_Figure_4_a.R
+│   │   └── 2_make_Figure_3_a.R
 │   └── output
 └── README
 
