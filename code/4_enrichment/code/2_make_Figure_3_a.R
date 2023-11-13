@@ -1,4 +1,4 @@
-# Figure 4 - a
+# Figure 3 - a
 library(ggplot2)
 library(reshape2)
 library(ggraph)
