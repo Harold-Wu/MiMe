@@ -9,9 +9,16 @@ This repository has the pipelines used in [] for investgating longitudinal traje
 <a name="data_source"></a>
 ### 1) Data source
 
-The microbiome and metabolome data can be downloaded from the repoisotry
+Raw microbiome and metabolome data
+  - Mass spectrometry data is available on MassIVE under ID MSV000092782.  LC-MS/MS spectral annotation and molecular networking by GNPS are available at [link](gnps.ucsd.edu/ProteoSAFe/status.jsp?task=7454748a6baa406b909540b1c90a4e7e).
+  - 16S amplicon data is available on Qiita under study ID 14092 with subsequent analysis and taxonomy assignment available under analysis ID 48437.
+
+Microbiome and metabolome data after QC
   - **[Microbiome data ()]()**
   - **[Metabolome data ()]()**
+
+
+
 
 <a name="data_analysis"></a>
 ### 2) Data analysis modules
