@@ -25,7 +25,7 @@ Microbiome and metabolome data after QC
 
 ...
 
-The workflow used for analysis can be downloaded from the following [link](https://github.com/Harold-Wu/MiMe/blob/main/Analysis.zip).
+The workflow used for analysis can be downloaded from the following [link](https://github.com/Harold-Wu/MiMe/blob/main/Pipeline.zip).
 
 
 ```
