@@ -23,8 +23,6 @@ Microbiome and metabolome data after QC
 <a name="data_analysis"></a>
 ### 2) Data analysis modules
 
-...
-
 The workflow used for analysis can be downloaded from the following [link](https://github.com/Harold-Wu/MiMe/blob/main/Pipeline.zip).
 
 
