@@ -1,4 +1,4 @@
-# Figure 1 - d & e
+# Figure 1 - a & b
 library(ggplot2)
 library(reshape2)
 library(vegan)
