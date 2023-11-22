@@ -1,4 +1,4 @@
-# Figure 1 - f & g
+# Figure 1 - c & d
 library(ggplot2)
 library(reshape2)
 
