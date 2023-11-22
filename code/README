@@ -18,8 +18,8 @@ the sequence of the module.
 │   │   ├── 1_auc_meta.R
 │   │   ├── 1_auc_micro.R
 │   │   ├── 2_filter_normalization.R
-│   │   ├── 3_make_Figure_1_d-e.R
-│   │   ├── 4_make_Figure_1_f-g.R
+│   │   ├── 3_make_Figure_1_a-b.R
+│   │   ├── 4_make_Figure_1_c-d.R
 │   │   └── 5_make_Figure_S1.R
 │   └── output
 ├── 2_model
