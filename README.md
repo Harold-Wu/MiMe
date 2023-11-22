@@ -15,7 +15,7 @@ Raw microbiome and metabolome data
   - Mass spectrometry data is available on MassIVE under ID MSV000092782. LC-MS/MS spectral annotation and molecular networking by GNPS are available at [link](gnps.ucsd.edu/ProteoSAFe/status.jsp?task=7454748a6baa406b909540b1c90a4e7e).
   - 16S amplicon data is available on Qiita under study ID 14092 with subsequent analysis and taxonomy assignment available under analysis ID 48437.
 
-The microbiome and metabolome data sets after quaility control can be downloaded form [link](https://github.com/Harold-Wu/MiMe/blob/main/Pipeline.zip). Data sets are organized in the following structure:
+The microbiome and metabolome data sets after quaility control can be downloaded form [link](https://github.com/Harold-Wu/MiMe/blob/main/Data.zip). Data sets are organized in the following structure:
 
 ```
 data
@@ -34,7 +34,9 @@ load('micro_QCed_data.RData')
 <a name="data_analysis"></a>
 ### 2) Data analysis modules
 
-The workflow used for analysis can be downloaded from the [link](https://github.com/Harold-Wu/MiMe/blob/main/Pipeline.zip). Once the file is uncompressed, it will generate a collection of folders, each containing a module of the workflow (see folder tree below). The number that preceeds the folder name indicate the order in which the modules need to be run. Because some modules use outputs from other modules as inputs, as a rule of thumb we recommend running the modules sequentially.
+The workflow used for analysis can be downloaded from the [link](https://github.com/Harold-Wu/MiMe/blob/main/Pipeline.zip). 
+
+Once the file is uncompressed, it will generate a collection of folders, each containing a module of the workflow (see folder tree below). The number that preceeds the folder name indicate the order in which the modules need to be run. Because some modules use outputs from other modules as inputs, as a rule of thumb we recommend running the modules sequentially.
 
 ```
 pipeline_analysis
