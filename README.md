@@ -41,7 +41,7 @@ The workflow used for analysis can be downloaded from the [link](https://github.
 Once the file is uncompressed, it will generate a collection of folders, each containing a module of the workflow (see folder tree below). The number that preceeds the folder name indicate the order in which the modules need to be run. Because some modules use outputs from other modules as inputs, as a rule of thumb we recommend running the modules sequentially.
 
 ```
-pipeline_analysis
+Pipeline
 ├── 1_data_processing
 │   ├── code
 │   │   ├── 1_data_QC.R
