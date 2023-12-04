@@ -15,19 +15,21 @@ Raw microbiome and metabolome data
   - Mass spectrometry data is available on MassIVE under ID MSV000092782. LC-MS/MS spectral annotation and molecular networking by GNPS are available at [link](gnps.ucsd.edu/ProteoSAFe/status.jsp?task=7454748a6baa406b909540b1c90a4e7e).
   - 16S amplicon data is available on Qiita under study ID 14092 with subsequent analysis and taxonomy assignment available under analysis ID 48437.
 
-The microbiome and metabolome data sets after quaility control can be downloaded from [link](https://github.com/Harold-Wu/MiMe/blob/main/Data.zip). Data sets are organized in the following structure:
+R-readable microbiome, metabolome, and their taxonomy data sets can be downloaded from [link](https://github.com/Harold-Wu/MiMe/blob/main/Data.zip). Data sets are organized in the following structure:
 
 ```
-data
-├── meta_QCed_data.RData
-└── micro_QCed_data.RData
+Data
+├── meta_data.RData
+├── micro_data.RData
+├── meta_taxa.RData
+└── micro_taxa.RData
 ```
 
-You can read them into a R environment using the following code:
+You can read microbiome and metabolome data sets into a R environment using the following code:
 
 ```r
-load('meta_QCed_data.RData')
-load('micro_QCed_data.RData')
+load('meta_data.RData')
+load('micro_data.RData')
 ```
 
 
@@ -42,19 +44,20 @@ Once the file is uncompressed, it will generate a collection of folders, each co
 pipeline_analysis
 ├── 1_data_processing
 │   ├── code
-│   │   ├── 1_auc_meta.R
-│   │   ├── 1_auc_micro.R
-│   │   ├── 2_filter_normalization.R
-│   │   ├── 3_make_Figure_1_d-e.R
-│   │   ├── 4_make_Figure_1_f-g.R
-│   │   └── 5_make_Figure_S1.R
+│   │   ├── 1_data_QC.R
+│   │   ├── 2_auc_meta.R
+│   │   ├── 2_auc_micro.R
+│   │   ├── 3_filter_normalization.R
+│   │   ├── 4_make_Figure_1_a-b.R
+│   │   ├── 5_make_Figure_1_c-d.R
+│   │   └── 6_make_Figure_S1.R
 │   └── output
 ├── 2_model
 │   ├── code
 │   │   ├── 1_model_meta.R
 │   │   ├── 1_model_micro.R
 │   │   ├── 2_make_Figure_2_a-d.R
-│   │   ├── 3_make_Figure_2_e-f.R
+│   │   ├── 3_make_Figure_3_a-b.R
 │   │   ├── 4_make_Figure_S2.R
 │   │   └── 5_make_Figure_S3.R
 │   └── output
@@ -66,7 +69,7 @@ pipeline_analysis
 │   ├── code
 │   │   ├── 1_enrich_meta.R
 │   │   ├── 1_enrich_micro.R
-│   │   └── 2_make_Figure_3_a.R
+│   │   └── 2_make_Figure_4_a.R
 │   └── output
 └── README
 ```
