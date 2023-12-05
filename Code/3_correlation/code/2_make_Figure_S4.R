@@ -17,8 +17,8 @@ top3_table=meta_prob_ind[,colnames(meta_prob_ind)%in%top3$meta]
 top3_table=as.data.frame(cbind(top3_table, micro_prob_ind[,colnames(micro_prob_ind)%in%top3$micro]))
 
 bottom3_table=meta_prob_ind[,colnames(meta_prob_ind)%in%bottom3$meta]
-bottom3_table=as.data.frame(cbind(bottom3_table, 'ASV_SILVA_1412'=micro_prob_ind[,colnames(micro_prob_ind)%in%bottom3$micro]))
-
+bottom3_table=as.data.frame(cbind(bottom3_table, micro_prob_ind[,colnames(micro_prob_ind)%in%bottom3$micro]))
+colnames(bottom3_table)[4]='ASV_SILVA_1412'
 
 s4a <- ggplot(top3_table, aes(x = Cluster5816, y = ASV_SILVA_1412))+
   geom_point()+
