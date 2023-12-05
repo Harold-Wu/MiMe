@@ -2,9 +2,9 @@
 library(ggplot2)
 library(ggpubr)
 library(latex2exp)
-COR=read.csv("/mnt/research/quantgen/projects/harold/InfantDev2/output/logistic/pairwise_cor.csv")
-load("/mnt/research/quantgen/projects/harold/InfantDev2/output/logistic/micro_ind_expected_diff.RData")
-load("/mnt/research/quantgen/projects/harold/InfantDev2/output/logistic/meta_ind_expected_diff.RData")
+COR=read.csv("../output/pairwise_cor.csv")
+load("../output/micro_ind_expected_diff.RData")
+load("../output/meta_ind_expected_diff.RData")
 
 commonID=intersect(rownames(meta_prob_ind), rownames(micro_prob_ind))
 meta_prob_ind=meta_prob_ind[commonID,]
