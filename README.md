@@ -63,7 +63,8 @@ Pipeline
 │   └── output
 ├── 3_correlation
 │   ├── code
-│   │   └── 1_bootstrap_unbiased_cor.R
+│   │   ├── 1_bootstrap_unbiased_cor.R
+│   │   └── 2_make_Figure_S4.R
 │   └── output
 ├── 4_enrichment
 │   ├── code
