@@ -54,7 +54,7 @@ s3a <- ggplot(prob_long, aes(x = Var1, y = value, group = Var2, color = color))+
   geom_line(aes(size = color))+
   scale_size_manual(values = c(Population = 3, Increase = 0.5, Decrease = 0.5),
                     labels = c(Population = "Population", Increase = "Individual Increase", Decrease = "Individual Decrease"))+
-  scale_color_manual(values = c(Population = "#619CFF", Increase = "#00BA38", Decrease = "#F8766D"),
+  scale_color_manual(values = c(Population = "#F8766D", Increase = "#E69F00", Decrease = "#56B4E9"),
                      labels = c(Population = "Population", Increase = "Individual Increase", Decrease = "Individual Decrease"))+
   labs(title = "ASV_195", x = "Age (months)", y = "Proportion of zeros", color = "", size = "")
 
@@ -73,6 +73,6 @@ s3b <- ggplot(prob_long, aes(x = Var1, y = value, group = Var2, color = color))+
   geom_line(aes(size = color))+
   scale_size_manual(values = c(Population = 3, Increase = 0.5, Decrease = 0.5),
                     labels = c(Population = "Population", Increase = "Individual Increase", Decrease = "Individual Decrease"))+
-  scale_color_manual(values = c(Population = "#619CFF", Increase = "#00BA38", Decrease = "#F8766D"),
+  scale_color_manual(values = c(Population = "#F8766D", Increase = "#E69F00", Decrease = "#56B4E9"),
                      labels = c(Population = "Population", Increase = "Individual Increase", Decrease = "Individual Decrease"))+
   labs(title = "ASV_145", x = "Age (months)", y = "Proportion of zeros", color = "", size = "")
