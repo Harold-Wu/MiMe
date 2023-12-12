@@ -2,7 +2,7 @@
 
 This repository has the pipelines used in **Population and subject-specific trajectories of fecal microbes and metabolites through early childhood** for investgating longitudinal trajectories in fecal microbiome and metabolome during the first 12 months of life from 99 infants.
 
-If you have questions about the content of this repository, please contact Hao Wu (wuhao12@msu.edu) and Gustavo de los Campos (gustavoc@msu.edu).
+If you have questions about the content of this repository, please contact Hao Wu (wuhao12@msu.edu) and Douglas Guzior (guziordo@msu.edu).
 
 ## Menu
  1. [Data source](#data_source)
