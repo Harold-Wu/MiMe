@@ -15,7 +15,7 @@ Raw microbiome and metabolome data
   - Mass spectrometry data is available on MassIVE under ID MSV000092782. LC-MS/MS spectral annotation and molecular networking by GNPS are available at [link](gnps.ucsd.edu/ProteoSAFe/status.jsp?task=7454748a6baa406b909540b1c90a4e7e).
   - 16S amplicon data is available on Qiita under study ID 14092 with subsequent analysis and taxonomy assignment available under analysis ID 48437.
 
-R-readable microbiome, metabolome, and their taxonomy data sets can be downloaded from [Figshare](https://figshare.com/articles/dataset/Dataset/24807804). Data sets are organized in the following structure:
+R-readable microbiome, metabolome, and their taxonomy data sets can be downloaded from [Figshare](https://figshare.com/s/efec32b7d0a122263ca0). Data sets are organized in the following structure:
 
 ```
 Data
