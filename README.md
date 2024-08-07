@@ -51,27 +51,31 @@ Pipeline
 │   │   ├── 3_filter_normalization.R
 │   │   ├── 4_make_Figure_1_a-b.R
 │   │   ├── 5_make_Figure_1_c-d.R
-│   │   └── 6_make_Figure_S1.R
+│   │   ├── 6_make_Figure_S1.R
+│   │   ├── 7_make_Figure_S2.R
+│   │   └── 8_make_Figure_S3.R
 │   └── output
 ├── 2_model
 │   ├── code
 │   │   ├── 1_model_meta.R
 │   │   ├── 1_model_micro.R
-│   │   ├── 2_make_Figure_2_a-d.R
+│   │   ├── 2_make_Figure_2_a-b.R
 │   │   ├── 3_make_Figure_3_a-b.R
-│   │   ├── 4_make_Figure_S2.R
-│   │   └── 5_make_Figure_S3.R
+│   │   ├── 4_make_Figure_S4.R
+│   │   └── 5_make_Figure_S5.R
 │   └── output
 ├── 3_correlation
 │   ├── code
 │   │   ├── 1_bootstrap_unbiased_cor.R
-│   │   └── 2_make_Figure_S4.R
+│   │   └── 2_make_Figure_S6.R
 │   └── output
 ├── 4_enrichment
 │   ├── code
 │   │   ├── 1_enrich_meta.R
 │   │   ├── 1_enrich_micro.R
-│   │   └── 2_make_Figure_4_a.R
+│   │   ├── 2_make_Figure_4_a.R
+│   │   ├── 3_make_Figure_4_b.R
+│   │   └── 4_make_Figure_5_a-b.R
 │   └── output
 └── README
 ```
