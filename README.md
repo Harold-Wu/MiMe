@@ -1,6 +1,6 @@
 # MiMe
 
-This repository has the pipelines used in **Population and subject-specific trajectories of fecal microbes and metabolites through early childhood** for investgating longitudinal trajectories in fecal microbiome and metabolome during the first 12 months of life from 99 infants.
+This repository has the pipelines used in **Longitudinal analyses of infants’ microbiome and metabolome reveal microbes and metabolites with seemingly coordinated dynamics** for investgating longitudinal trajectories in fecal microbiome and metabolome during the first 12 months of life from 99 infants.
 
 If you have questions about the content of this repository, please contact Hao Wu (wuhao12@msu.edu) and Douglas Guzior (guziordo@msu.edu).
 
