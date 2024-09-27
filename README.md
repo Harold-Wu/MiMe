@@ -16,7 +16,7 @@ Raw microbiome and metabolome data
   - LC-MS/MS spectral annotation and molecular networking by GNPS are available at gnps.ucsd.edu/ProteoSAFe/status.jsp?task=7454748a6baa406b909540b1c90a4e7e. 
   - 16S rRNA gene amplicon data were deposited in the EMBL-EBI European Nucleotide Archive and can be found under project PRJEB72674, study accession ERP157451.  Data are also available on Qiita under study ID 14092 with subsequent analysis and taxonomy assignment available under analysis ID 48437.
 
-R-readable microbiome, metabolome, and their taxonomy data sets can be downloaded from [Figshare](https://figshare.com/s/efec32b7d0a122263ca0). Data sets are organized in the following structure:
+R-readable microbiome, metabolome, and their taxonomy data sets can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.24807804.v3). Data sets are organized in the following structure:
 
 ```
 Data
